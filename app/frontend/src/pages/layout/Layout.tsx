@@ -1,6 +1,8 @@
 import { Outlet, NavLink, Link } from "react-router-dom";
 
-import github from "../../assets/github.svg";
+#import github from "../../assets/github.svg";
+
+import metabite_logo from "../../assets/metabite_logo.svg";
 
 import styles from "./Layout.module.css";
 
@@ -10,7 +12,7 @@ const Layout = () => {
             <header className={styles.header} role={"banner"}>
                 <div className={styles.headerContainer}>
                     <Link to="/" className={styles.headerTitleContainer}>
-                        <h3 className={styles.headerTitle}>GPT + Enterprise data | Sample</h3>
+                        <h3 className={styles.headerTitle}>METABITE: Ask a nutritionist (prototype)</h3>
                     </Link>
                     <nav>
                         <ul className={styles.headerNavList}>
@@ -25,11 +27,11 @@ const Layout = () => {
                                 </NavLink>
                             </li>
                             <li className={styles.headerNavLeftMargin}>
-                                <a href="https://aka.ms/entgptsearch" target={"_blank"} title="Github repository link">
+                                <a href="https://www.metabite.com/" target={"_blank"} title="Metabite website link">
                                     <img
-                                        src={github}
-                                        alt="Github logo"
-                                        aria-label="Link to github repository"
+                                        src={metabite_logo}
+                                        alt="Metabite logo"
+                                        aria-label="Link to metabite website"
                                         width="20px"
                                         height="20px"
                                         className={styles.githubLogo}
