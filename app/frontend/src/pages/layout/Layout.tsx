@@ -1,6 +1,6 @@
 import { Outlet, NavLink, Link } from "react-router-dom";
 
-#import github from "../../assets/github.svg";
+import github from "../../assets/github.svg";
 
 import metabite_logo from "../../assets/metabite_logo.svg";
 
